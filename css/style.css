@@ -1,0 +1,129 @@
+.body {
+    background-color: #222222;
+}
+.navigation {
+    background-color: #222222;
+    display: block;
+    height: 128px;
+    margin: 0px;
+}
+.navButton1 {
+    background-color: #222222;
+    height: 71px;
+    width: 71px;
+    border: none;
+    padding: 20px;
+    display: inline-block;
+}
+.heroCard {
+    padding:10px;
+    margin: 50px;
+}
+.caseContent1 {
+    padding:20px;
+    margin: 50px;
+}
+.caseStudy2 {
+    padding:20px;
+    margin: 50px;
+}
+.caseStudy3 {
+    padding:20px;
+    margin: 50px;
+}
+.hfButton {
+    background-color: #222222;
+    height: 128px;
+    width: 313px;
+    color: #DDDDDD;
+    font-size: 40px;
+    font-family: "copperplate";
+    border: none;
+    padding: 0px;
+    float: right;
+    text-align: center;
+}
+.cardTitle {
+    color: #DDDDDD;
+    font-size: 70px;
+    font-family: "copperplate";
+    padding:1px;
+    margin:35px 40px;
+}
+.myName {
+    text-align: right;
+}
+.pStyle {
+    color: #DDDDDD;
+    font-size: 32px;
+    font-family: "Roboto";
+    padding: 1px;
+    margin: 100px;
+}
+.button {
+    height: 237px;
+    width: 237px;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    color: #222222;
+    font-family: "copperplate";
+    display: inline-block;
+    margin:12px;
+}
+.heroButton1 {
+    background-color: #FC6969;
+    }
+
+.heroButton2 {
+    background-color: #E0B749;
+    }
+
+.heroButton3 {
+    background-color: #8475D5;
+    }
+
+ #Me {
+     float: left;
+     margin: 20px;
+ }
+ #img_Case1 {
+    float:right;
+    margin: 20px;
+    animation: bounceimg .7s infinite;
+    animation-play-state: paused;
+}
+#img_Case1:hover {
+    animation-play-state: running;
+}
+#img_Case2 {
+    float: left;
+    margin: 20px;
+    animation: bounceimg .7s infinite;
+    animation-play-state: paused;
+} 
+#img_Case2:hover {
+    animation-play-state: running;  
+}
+#img_Case3 {
+    float: right;
+    margin: 20px;
+    animation: bounceimg .7s infinite;
+    animation-play-state: paused;
+}
+#img_Case3:hover {
+    animation-play-state: running;}
+
+@keyframes bounceimg {
+    from {
+        margin-top: 0px;
+      }
+      50% {
+        margin-top: 7px;
+      }
+      to {
+        margin-top: 0px;
+      }
+    }
